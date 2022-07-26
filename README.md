@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yannick's TRPC Test con NextJS + Typescript
 
-## Getting Started
+Este repo fue solo para probar los pininos de trpc con next usando su servidor interno.
 
-First, run the development server:
+## Notas personales
+- TRPC esta muy cool como idea
+- Falta verificar como implementar medidas de authorization para ciertos procedures restringidos
+- Nota mental, verificar trpc + prisma + trpc-prisma-generatr
+- Puedo ver como se no adoptar un modelo de nombramiento el nombre de los procedures puede ser un caos para proyectos grandes
+- Si bien los docs hablan de un vanilla client, habria que ver cuando salen client adapters para angular y sobre todo vue
+- No hay docs acerca de buffers, blobs o file objects o como manejar files con trpc para subida de archivos en general
+
+## TODOS
+- Implementar con SQL , planetscale recomendado
+- Verificar typeo general para proyectos de Vue 2 (3 ya lo tiene semi resuelto)
+
+## Como correr el dev server
+
+Dev Server
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
